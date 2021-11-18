@@ -20,8 +20,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '9.0'
   s.vendored_libraries      = 'AMRAdapterSmaato/Libs/libAMRAdapterSmaato.a'
   
-  s.dependency 'smaato-ios-sdk/Banner', '21.6.17'
-  s.dependency 'smaato-ios-sdk/Interstitial', '21.6.17'
-  s.dependency 'smaato-ios-sdk/RewardedAds', '21.6.17'
+  s.dependency 'smaato-ios-sdk', '21.6.17'
   s.dependency 'AMRSDK', '~> 1.4.84'
 end
