@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'AMRAdapterSmaato'
-  s.version                 = '21.6.17.0'
+  s.version                 = '21.6.17.1'
   s.cocoapods_version       ='>= 1.9.0'
   s.license                 = { :type => 'Copyright', :text => <<-LICENSE
 														        Copyright 2016
