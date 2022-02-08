@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'AMRAdapterSmaato'
-  s.version                 = '21.6.17.2'
+  s.version                 = '21.7.0.0'
   s.cocoapods_version       ='>= 1.9.0'
   s.license                 = { :type => 'Copyright', :text => <<-LICENSE
 														        Copyright 2016
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.documentation_url       = 'https://admost.github.io/amrios/'
   s.platform 			          = :ios
   s.ios.deployment_target   = '9.0'
-  s.vendored_libraries      = 'AMRAdapterSmaato/Libs/libAMRAdapterSmaato.a'
+  s.vendored_frameworks      = 'AMRAdapterSmaato/Libs/AMRAdapterSmaato.xcframework'
   
-  s.dependency 'smaato-ios-sdk', '21.6.17'
-  s.dependency 'AMRSDK', '~> 1.5.0'
+  s.dependency 'smaato-ios-sdk', '21.7.0'
+  s.dependency 'AMRSDK', '~> 1.5.6'
 end
