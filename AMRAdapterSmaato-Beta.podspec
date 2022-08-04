@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'AMRAdapterSmaato-Beta'
-  s.version                 = '21.7.5.0'
+  s.version                 = '21.7.6.0'
   s.cocoapods_version       ='>= 1.9.0'
   s.license                 = { :type => 'Copyright', :text => <<-LICENSE
 														        Copyright 2016
@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   
-  s.dependency 'smaato-ios-sdk', '21.7.5'
+  s.dependency 'smaato-ios-sdk', '21.7.6'
   s.dependency 'AMRSDK-Beta', '~> 1.5.6'
 end
