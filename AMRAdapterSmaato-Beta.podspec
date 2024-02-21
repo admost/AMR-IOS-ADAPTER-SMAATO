@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'AMRAdapterSmaato-Beta'
-  s.version                 = '22.6.1.0'
+  s.version                 = '22.7.0.0'
   s.cocoapods_version       ='>= 1.9.0'
   s.license                 = { :type => 'Copyright', :text => <<-LICENSE
 														        Copyright 2016
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
  								              }
   s.documentation_url       = 'https://admost.github.io/amrios/'
   s.platform 			          = :ios
-  s.ios.deployment_target   = '9.0'
+  s.ios.deployment_target   = '11.0'
   s.swift_versions = ['5']
   s.vendored_frameworks      = 'AMRAdapterSmaato/Libs/AMRAdapterSmaato.xcframework'
   s.pod_target_xcconfig = { 
@@ -27,6 +27,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   
-  s.dependency 'smaato-ios-sdk', '22.6.1'
+  s.dependency 'smaato-ios-sdk', '22.7.0'
   s.dependency 'AMRSDK-Beta', '~> 1.5.40'
 end
