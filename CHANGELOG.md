@@ -3,6 +3,10 @@
 Changelog for AMRAdapterSmaato. 
 smaato-ios-sdk [changelog](https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog/)
 
+## [22.8.1.0] - 2024-03-21
+### Updated
+- Offical release for smaato-ios-sdk 22.8.1
+
 ## [22.8.0.0] - 2024-03-14
 ### Updated
 - Offical release for smaato-ios-sdk 22.8.0
