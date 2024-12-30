@@ -3,6 +3,10 @@
 Changelog for AMRAdapterSmaato. 
 smaato-ios-sdk [changelog](https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog/)
 
+## [22.9.2.1] - 2024-12-30
+### Updated
+- Revenue Paid supported added.
+
 ## [22.9.2.0] - 2024-12-02
 ### Updated
 - Offical release for smaato-ios-sdk 22.9.2
